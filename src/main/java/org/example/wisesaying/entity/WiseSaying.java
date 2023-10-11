@@ -1,9 +1,9 @@
-package org.example.wisesaying.entity;
+package org.example;
 
 public class WiseSaying {
-    long wiseSayingNum;
-    String author;
-    String content;
+    private long wiseSayingNum;
+    private String author;
+    private String content;
     public WiseSaying(long wiseSayingNum, String author, String content) {
         this.wiseSayingNum = wiseSayingNum;
         this.author = author;
